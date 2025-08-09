@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@447&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+      font-family: "Poetsen One", sans-serif;
+
+}
+
+body{
+    overflow: hidden;
+}
+
+.img-caixa01{
+    display: flex;
+    justify-content: center;
+    /*border: solid 2px;*/
+}
+.img-caixa01 img{
+    width: 200px;
+    /*border: solid 2px;*/
+    margin-top: 70px;
+}
+
+
+.links-lojas ul{
+    text-align: center;
+    list-style-type: none;
+}
+.links-lojas li{
+    margin: 30px;
+}
+.links-lojas a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 120);
+    /*padding: 20px;*/
+    border-radius: 30px 10px 30px 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.links-lojas li:hover{
+    transition: transform 0.8s;
+    transform: scale(1.2);
+}
+.links-lojas a:hover{
+    background: rgb(221, 0, 0);
+    color: white;
+    font-weight: 500;
+}
+
+
+.img-caixa02 img{
+    position: relative;
+    left: 700px;
+    bottom: 40px;
+    /*border: solid 2px;*/
+    width: 134px;
+}
+
+.principal{
+    position: relative;
+    top: 0;
+    z-index: 1;
+}
+
+.video-fundo video{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    top: 0;
+    bottom: 0;
+}
+
+.AUG{
+    padding: 10px 40px 10px 40px;
+}
+.BRT{
+    padding: 10px 70px 10px 70px;
+}
+.ART{
+    padding: 10px 50px 10px 50px;
+}
+.AXI{
+    padding: 10px 61px 10px 61px;
+}
+
+

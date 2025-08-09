@@ -1,0 +1,33 @@
+ul{
+    background: black;
+    overflow: auto;
+}
+
+li{
+    float: right;
+    padding: 20px;
+    background: gray;
+    margin: 10px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+li:hover{
+    background: red;
+    padding: 20px;
+}
+
+.navegacao{
+    height: 400px;
+    border: solid 2px;
+    background: red;
+}
+
+.lista{
+    position: relative;
+    top: 50%;
+    transform: translatey(-50%);
+}
