@@ -88,9 +88,9 @@ body{
 }
 
 
-@media only screen and (min-width: 425px){
+@media only screen and (min-width: 720px){
     .img-caixa02 img{
-        left: 300px;
+        left: 400px;
     }
 }
 
