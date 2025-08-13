@@ -90,12 +90,12 @@ body{
 
 @media only screen and (min-width: 500px){
     .img-caixa02 img{
-        left: 700px;
+        left: 300px;
     }
 }
 
 @media only screen and (min-width: 1200px){
     .img-caixa02 img{
-        left: 300px;
+        left: 700px;
     }
 }
