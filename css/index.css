@@ -86,3 +86,10 @@ body{
 .AXI{
     padding: 10px 61px 10px 61px;
 }
+
+
+@media only screen and (min-width: 500px){
+    .img-caixa02 img{
+        left: 300px;
+    }
+}
