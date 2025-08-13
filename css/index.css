@@ -86,21 +86,3 @@ body{
 .AXI{
     padding: 10px 61px 10px 61px;
 }
-
-
-/*RESPONSSIVO PARA CELULARES*/
-@media only screen and (max-width: 900px){
-    .img-caixa02 img {
-        border: solid 2px;
-    }
-
-    .img-caixa01{
-        padding-top: 500px;
-    }
-}
-
-@media only screen and (max-width: 1200px){
-    .img-caixa02 img{
-        left: 700px;
-    }
-}
