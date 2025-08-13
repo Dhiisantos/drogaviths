@@ -87,8 +87,8 @@ body{
     padding: 10px 61px 10px 61px;
 }
 
-@media only screen and (max-width: 720px){
+@media only screen and (max-width: 1080px){
     .img-caixa02 img{
-        left: 320px;
+        left: 620px;
     }
 }
