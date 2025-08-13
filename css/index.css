@@ -16,7 +16,7 @@ body{
 .img-caixa01{
     display: flex;
     justify-content: center;
-    border: solid 2px;
+    /*border: solid 2px;*/
 }
 .img-caixa01 img{
     width: 200px;
@@ -85,11 +85,4 @@ body{
 }
 .AXI{
     padding: 10px 61px 10px 61px;
-}
-
-
-@media only screen and (min-width: 1080px){
-    .img-caixa02 img{
-        left: 600px;
-    }
 }
