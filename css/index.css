@@ -11,6 +11,8 @@
 
 body{
     overflow: hidden;
+    height: 100%;
+    width: 100%;
 }
 
 .img-caixa01{
@@ -90,7 +92,7 @@ body{
 @media only screen and (max-width: 720px){
     .img-caixa02 img{
         left: 320px;
-        width: 170px;
+        width: 165px;
     }
 
     .img-caixa01{
