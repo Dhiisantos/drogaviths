@@ -91,4 +91,8 @@ body{
     .img-caixa02 img{
         left: 320px;
     }
+
+    .img-caixa01{
+        padding-top: 600px;
+    }
 }
