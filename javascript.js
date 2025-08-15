@@ -1,4 +1,4 @@
-document.getElementById("meuBotao01", "meuBotao02", "meuBotao03", "meuBotao04").addEventListener("click", function () {
+document.getElementById("meuBotaoZero", "meuBotaoDois", "meuBotaoTres", "meuBotaoQuatro").addEventListener("click", function () {
   let botao = this;
 
   // Adiciona a classe de animação
