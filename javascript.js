@@ -6,13 +6,6 @@ window.addEventListener("pageshow", function (event) {
 });
 
 
-  document.addEventListener('visibilitychange', function () {
-    if (document.visibilityState === 'visible') {
-      location.reload();
-    }
-  });
-
-  
 document.querySelectorAll('.link-com-animacao').forEach(link => {
   link.addEventListener('click', function(e) {
     e.preventDefault(); // Evita que o link redirecione imediatamente
