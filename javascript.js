@@ -1,19 +1,23 @@
-document.getElementById("meuBotaoZero", "meuBotaoDois", "meuBotaoTres", "meuBotaoQuatro").addEventListener("click", function () {
-  let botao = this;
-
-  // Adiciona a classe de animação
-  botao.classList.add("animar");
-
-  // Espera 300ms (tempo da animação) e só então muda de página
-  setTimeout(function () {
-    window.location.href = "pagina-seguinte.html";
-  }, 900);
-});
-
-
 window.addEventListener("pageshow", function (event) {
   if (event.persisted) {
     // Se veio do cache do histórico, recarrega a página
     window.location.reload();
   }
 });
+
+document.querySelectorAll('.link-com-animacao').forEach(link => {
+  link.addEventListener('click', function(e) {
+    e.preventDefault(); // Evita que o link redirecione imediatamente
+
+    const destino = this.getAttribute('href'); // Pega o destino do link
+    const conteudo = document.getElementById('butao01', 'butao02', 'butao03', 'butao04');
+
+    // Adiciona a classe de animação de saída
+    conteudo.classList.add('fade-out');
+
+    // Espera o tempo da animação antes de redirecionar
+    setTimeout(() => {
+      window.location.href = destino;
+    }, 100); // Tempo em milissegundos (deve ser igual ao da animação no CSS)
+  });
+  });
