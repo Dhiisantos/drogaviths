@@ -18,12 +18,13 @@ body{
 .img-caixa01{
     display: flex;
     justify-content: center;
+    padding-top: 65px;
     /*border: solid 2px;*/
 }
 .img-caixa01 img{
     width: 200px;
     /*border: solid 2px;*/
-    margin-top: 70px;
+    /*margin-top: 70px;*/
 }
 
 
@@ -39,7 +40,7 @@ body{
     text-decoration: none;
     color: rgb(0, 0, 120);
     /*padding: 20px;*/
-    border-radius: 30px 10px 30px 10px;
+    /*border-radius: 30px 10px 30px 10px;*/
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .links-lojas li:hover{
@@ -55,7 +56,7 @@ body{
 
 .img-caixa02 img{
     position: relative;
-    left: 700px;
+    left: 710px;
     bottom: 40px;
     /*border: solid 2px;*/
     width: 134px;
@@ -97,14 +98,5 @@ body{
 
     .img-caixa01{
         padding-top: 350px;
-    }
-}
-@media only screen and (max-width: 1440px){
-    .img-caixa02 img{
-        left: 800px;
-    }
-
-    .img-caixa01{
-        margin-top: 290px;
     }
 }
