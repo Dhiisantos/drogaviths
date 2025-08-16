@@ -52,6 +52,7 @@ body{
     background: rgb(221, 0, 0);
     color: white;
     font-weight: 500;
+    border: solid 0.5px rgba(0, 0, 255, 0.342);
 }
 
 
