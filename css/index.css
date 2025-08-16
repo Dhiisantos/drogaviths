@@ -99,3 +99,12 @@ body{
         padding-top: 350px;
     }
 }
+@media only screen and (max-width: 1440px){
+    .img-caixa02 img{
+        left: 800px;
+    }
+
+    .img-caixa01{
+        margin-top: 290px;
+    }
+}
