@@ -102,5 +102,6 @@ body{
 
     .img-caixa01{
         padding-top: 380px;
+        border: solid 2px;
     }
 }
