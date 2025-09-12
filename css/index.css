@@ -135,14 +135,14 @@ body{
 
 
 
-@media only screen and (aspect-ratio: 16/9){
+@media (aspect-ratio: 16/9){
     .imagem-boneco{
     /*border: solid 2px;*/
     margin-left: 250px;
     margin-top: 70px;
 
     img{
-        height: 180px;
+        height: 200px;
     }
 }
 }
