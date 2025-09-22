@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 body{
@@ -132,7 +133,8 @@ body{
     margin-left: 250px;
 
     img{
-        height: 180px;
+        height: 170px;
+        margin-bottom: 20px;
     }
 }
 
