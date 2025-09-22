@@ -151,5 +151,21 @@ body{
     bottom: 900px;
     z-index: 3;
 
+    .caixa-video{
+        width: 100vw;
+        height: 100vh;
+    video{
+        background-size: cover;
+        position: relative;
+        position: fixed;
+        top: 0;
+        bottom: -50px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        width: 100%;
+    }
+}
+
 }
 }
