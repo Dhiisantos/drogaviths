@@ -18,7 +18,10 @@ body{
         background-size: cover;
         position: relative;
         position: fixed;
-        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100vw;
     }
 }
 
@@ -136,13 +139,5 @@ body{
 
 
 @media only screen and (max-width: 768px){
-    .imagem-boneco{
-    /*border: solid 2px;*/
-    margin-left: 2px;
-    margin-top: 70px;
-}
 
-.imagem-boneco img{
-        height: 200px;
-}
 }
