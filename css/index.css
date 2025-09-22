@@ -33,8 +33,8 @@ body{
     /*border: solid 2px;*/
     width: 300px;
     position: relative;
-    top: 0px;
-    z-index: 1;
+    bottom: 620px;
+    z-index: 3;
 
 }
 
