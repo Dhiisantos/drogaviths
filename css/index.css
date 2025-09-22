@@ -7,35 +7,28 @@
 
 body{
     overflow: hidden;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
 
-    .caixa-video{
+    video {
+        position: fixed;
+        object-fit: cover;
         width: 100vw;
         height: 100vh;
-    video{
-        background-size: cover;
-        position: relative;
-        position: fixed;
         top: 0;
-        bottom: 0;
         left: 0;
-        right: 0;
-        width: 100%;
-        width: 100%;
+        z-index: -1;
     }
-}
 }
 
 .conteudo{
     /*border: solid 2px;*/
     width: 300px;
-    position: relative;
-    bottom: 620px;
-    z-index: 3;
-
+    position: absolute;
+    bottom: 1px;
+    z-index: 1;
 }
 
 
@@ -137,39 +130,12 @@ body{
 
     img{
         height: 170px;
-        margin-bottom: 20px;
+        margin-bottom: -10px;
     }
 }
 
 
 
 @media only screen and (max-width: 768px){
-    .conteudo{
-    /*border: solid 2px;*/
-    width: 300px;
-    position: relative;
-    bottom: 900px;
-    z-index: 3;
 
-    .caixa-video{
-        width: 100vw;
-        height: 100vh;
-    video{
-        background-size: cover;
-        position: relative;
-        position: fixed;
-        top: 0;
-        bottom: 0px;
-        left: 0;
-        right: 0;
-        width: 100%;
-        width: 100%;
-    }
-
-    body{
-        background-color: rgb(255, 51, 0);
-    }
-}
-
-}
 }
