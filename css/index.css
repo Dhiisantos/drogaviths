@@ -6,14 +6,15 @@
 }
 
 body{
-    height: 100vh;
-    width: 100vw;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 
+    .caixa-video{
+        width: 100vw;
+        height: 100vh;
     video{
         background-size: cover;
         position: relative;
@@ -23,7 +24,9 @@ body{
         left: 0;
         right: 0;
         width: 100%;
+        width: 100%;
     }
+}
 }
 
 .conteudo{
