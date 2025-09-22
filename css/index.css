@@ -55,13 +55,14 @@ body{
             text-decoration: none;
             border-radius: 10px;
             color: white;
+            font-weight: 600;
         }
     }
     .aug:hover{
         transition: transform 0.5s;
         transform: scale(1.1);
         a{
-            font-weight: bold;
+            font-weight: 800;
         }
     }
 
@@ -74,13 +75,14 @@ body{
             text-decoration: none;
             border-radius: 10px;
             color: white;
+            font-weight: 600;
         }
     }
     .but:hover{
         transition: transform 0.5s;
         transform: scale(1.1);
         a{
-            font-weight: bold;
+            font-weight: 800;
         }
     }
 
@@ -93,13 +95,14 @@ body{
             text-decoration: none;
             border-radius: 10px;
             color: black;
+            font-weight: 600;
         }
     }
     .art:hover{
         transition: transform 0.5s;
         transform: scale(1.1);
         a{
-            font-weight: bold;
+            font-weight: 800;
         }
     }
 
@@ -113,6 +116,7 @@ body{
             text-decoration: none;
             border-radius: 10px;
             color: black;
+            font-weight: 600;
         }
     }
 }
@@ -120,7 +124,7 @@ body{
         transition: transform 0.5s;
         transform: scale(1.1);
         a{
-            font-weight: bold;
+            font-weight: 800;
         }
     }
 
@@ -132,10 +136,4 @@ body{
         height: 170px;
         margin-bottom: -10px;
     }
-}
-
-
-
-@media only screen and (max-width: 768px){
-
 }
